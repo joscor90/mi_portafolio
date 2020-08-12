@@ -1,0 +1,24 @@
+/*Dimensiones y estilos del logo de la barra de navegación*/
+.navbar-logo {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+/*Color del fondo de la barra de navegación*/
+nav {
+    background-color: #660066;
+}
+
+/*Margen de los links de la barra de navegación*/
+.navbar-nav {
+    margin-right: 150px;
+}
+
+/*Media Query que cambia el margen del logo de la barra de navegación una vez se pasa a tamaño móvil*/
+@media screen and (max-width: 576px) {
+    .navbar-logo {
+        margin-left: 40px;
+    }
+}
