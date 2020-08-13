@@ -11,6 +11,10 @@ nav {
     background-color: #660066;
 }
 
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
 /*Margen de los links de la barra de navegación*/
 .navbar-nav {
     margin-right: 150px;
@@ -45,6 +49,10 @@ header {
     visibility: hidden;
 }
 
+.footer-titulo {
+    
+}
+
 /*Título*/
 h1 {
     font-size: 65px;
@@ -60,6 +68,11 @@ h3 {
     font-family: "Oswald", sans-serif;
     margin-bottom: 13px;
 
+}
+
+footer {
+    background-color: #660066;
+    padding: 40px auto;
 }
 
 /*Párrafos*/
@@ -87,6 +100,17 @@ p {
 
     .hide-sm {
         visibility: collapse;
+    }
+
+    .card-body {
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .footer-titulo {
+        text-align: center;
+        padding-bottom: 20px;
     }
 
 }
