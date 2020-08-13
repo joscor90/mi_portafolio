@@ -16,11 +16,17 @@ nav {
     margin-right: 150px;
 }
 
-.about-hr {
+/*Linea horizontal bajo los subtítulos*/
+.title-hr {
     border-top: 5px solid #037037;
     width: 20%;
 }
 
+.trabajos {
+    background-color: #660066;
+}
+
+/*Header*/
 header {
     background-image: url("../img/bg_hero.png");
     background-position-x: center;
@@ -35,10 +41,12 @@ header {
     font-family: "Oswald", sans-serif;
 }
 
+/*Título*/
 h1 {
     font-size: 65px;
 }
 
+/*Sub-Subtítulos de la sección "Acerca de mí"*/
 h3 {
     font-weight: bold;
     font-family: "Oswald", sans-serif;
@@ -46,11 +54,10 @@ h3 {
 
 }
 
+/*Párrafos*/
 p {
     font-family: "Open Sans", sans-serif;
 }
-
-
 
 /*Media Queries*/
 @media screen and (max-width: 576px) {
