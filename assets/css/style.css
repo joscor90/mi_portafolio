@@ -41,9 +41,17 @@ header {
     font-family: "Oswald", sans-serif;
 }
 
+.modal-btn {
+    visibility: hidden;
+}
+
 /*Título*/
 h1 {
     font-size: 65px;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
 }
 
 /*Sub-Subtítulos de la sección "Acerca de mí"*/
@@ -63,6 +71,22 @@ p {
 @media screen and (max-width: 576px) {
     .navbar-logo {
         margin-left: 40px;
+    }
+
+    .card {
+        margin-left: 17%;
+    }
+
+    .card button {
+        margin: 5px auto;
+    }
+
+    .modal-btn {
+        visibility: visible;
+    }
+
+    .hide-sm {
+        visibility: collapse;
     }
 
 }
