@@ -1,36 +1,10 @@
-/*Dimensiones y estilos del logo de la barra de navegación*/
-.navbar-logo {
+/*ELEMENTOS*/
+/*BODY*/
+body {
     font-family: "Oswald", sans-serif;
-    font-weight: bold;
-    font-size: 40px;
-    margin-left: 150px;
 }
 
-/*Color del fondo de la barra de navegación*/
-nav {
-    background-color: #660066;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-/*Margen de los links de la barra de navegación*/
-.navbar-nav {
-    margin-right: 150px;
-}
-
-/*Linea horizontal bajo los subtítulos*/
-.title-hr {
-    border-top: 5px solid #037037;
-    width: 20%;
-}
-
-#trabajos {
-    background-color: #660066;
-}
-
-/*Header*/
+/*HEADER*/
 header {
     background-image: url("../img/bg_hero.png");
     background-position-x: center;
@@ -42,52 +16,83 @@ header {
     flex-direction: column-reverse;
     align-items: center;
     color: white;
-    font-family: "Oswald", sans-serif;
 }
 
-.modal-btn {
-    visibility: hidden;
+nav a, p {
+    font-family: "Open Sans", sans-serif;
 }
 
-.footer-titulo {
-    
-}
-
-/*Título*/
+/*TÍTULO PRINCIPAL*/
 h1 {
     font-size: 65px;
 }
 
-h2 {
-    font-family: "Oswald", sans-serif;
-}
-
-/*Sub-Subtítulos de la sección "Acerca de mí"*/
+/*SUB-SUBTÍTULOS*/
 h3 {
     font-weight: bold;
-    font-family: "Oswald", sans-serif;
     margin-bottom: 13px;
-
 }
 
+figure img {
+    height: 300px;
+    width: 300px;
+}
+
+/*FOOTER*/
 footer {
-    background-color: #660066;
     padding: 40px auto;
 }
 
-/*Párrafos*/
-p {
-    font-family: "Open Sans", sans-serif;
+/*LINKS DEL FOOTER*/
+footer a, footer a:hover {
+    color: #fff;
+    text-decoration: none;
+    margin: auto 10px;
 }
 
-/*Media Queries*/
-@media screen and (max-width: 576px) {
+/*CLASES*/
+/*COLOR DE FONDO DE LA BARRA DE NAVEGACIÓN, MIS TRABAJOS Y FOOTER*/
+.bg-color {
+    background-color: #660066;
+}
+
+/*LOGO NAVBAR*/
+.navbar-logo {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+/*MARGEN DE LOS LINKS DE LA BARRA DE NAVEGACIÓN*/
+.navbar-nav {
+    margin-right: 150px;
+}
+
+/*LINEA HORIZONTAL DE LOS SUBTITULOS*/
+.title-hr {
+    border-top: 5px solid #037037;
+    width: 30%;
+}
+
+/*BOTÓN DE MODAL*/
+.modal-btn {
+    visibility: hidden;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 568px) {
     .navbar-logo {
-        margin-left: 40px;
+        margin-left: 20px;
+        font-size: 30px;
     }
 
-    .card {
-        margin-left: 17%;
+    .title-hr {
+        width: 70%;
+    }
+
+    .fig-con {
+        padding: 0;
     }
 
     .card button {

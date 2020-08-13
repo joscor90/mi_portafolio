@@ -15,7 +15,7 @@
 </head>
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-color navbar-dark fixed-top">
         <a class="navbar-brand" href="#"><span class="navbar-logo">José Cordero</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,9 +37,9 @@
 
     <!--Sección "Sobre mí"-->
     <section class="my-4 d-none d-md-block" id="sobre-mi">
-        <h2 class="text-center display-4 font-weight-bold">Sobre mí</h2>
-        <hr class="title-hr mb-4">
         <div class="container">
+            <h2 class="text-center display-4 font-weight-bold">Sobre mí</h2>
+            <hr class="title-hr mb-4">
             <div class="row my-4">
                 <div class="col">
                     <h3>Quién soy</h3>
@@ -72,15 +72,37 @@
     </section>
 
     <!--Sección "Mi experiencia"-->
-    <section class="py-5" id="experiencia">
+    <section class="py-5 mb-5 text-center container" id="experiencia">
         <h2 class="text-center display-4 font-weight-bold">Mi experiencia</h2>
         <hr class="title-hr mb-4">
+        <div class="row">
+            <div class="fig-con col-md-4">
+                <figure>
+                    <img src="./assets/img/scientist.png" alt="scientist">
+                </figure>
+                <h3>Asistente de Investigación</h3>
+                <p>2016 - 2020</p>
+            </div>
+            <div class="fig-con col-md-4">
+                <figure>
+                    <img src="./assets/img/rails.png" alt="ruby-rails">
+                </figure>
+                <h3>Desarrollador Rails</h3>
+                <p>???? - ????</p>
+            </div>
+            <div class="fig-con col-md-4">
+                <figure>
+                    <img src="./assets/img/normandy.png" alt="spaceship">
+                </figure>
+                <h3>Capitán de la SSV Normandy </h3>
+                <p>2007 - 2020</p>
+            </div>
+        </div>
 
-        <!--Carousel-->
     </section>
 
     <!--Sección "Mis últimos trabajos"-->
-    <section class="my-5 pb-5" id="trabajos">
+    <section class="my-5 pb-5 bg-color" id="trabajos">
         <h2 class="text-center display-4 font-weight-bold text-white my-4 pt-5">Mis trabajos</h2>
         <div class="container">
             <div class="card-deck">
@@ -272,7 +294,7 @@
     </div>
 
     <!--Sección "Contacto"-->
-    <section class="my-4" id="contacto">
+    <section class="my-4 container" id="contacto">
         <h2 class="text-center display-4 font-weight-bold">Contacto</h2>
         <hr class="title-hr">
 
@@ -281,29 +303,21 @@
     </section>
 
     <!--Footer-->
-    <footer class="py-5 text-white">
+    <footer class="py-5 text-white bg-color">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-left">
                     <h3 class="footer-titulo display-5">Sígueme en mis redes sociales</h3>
                 </div>
-                <div class="footer-iconos col-md-6 text-center">
-                    <a href="https://www.facebook.com/profile.php?id=100000159492383" target="_blank"><i class="fab fa-facebook fa-3x mx-4" data-toggle="tooltip" data-placement="bottom" title="Mi perfil de Facebook"></i></a>
-                    <a href="https://www.instagram.com/tigerdriver2666/" target="_blank"><i class="fab fa-instagram fa-3x mx-4" data-toggle="tooltip" data-placement="bottom" title="Mi cuenta de Instagram"></i></a>
-                    <a href="https://github.com/joscor90" target="_blank"><i class="fab fa-github fa-3x mx-4" data-toggle="tooltip" data-placement="bottom" title="Mi cuenta en Github"></i></a>
-                    <a href="https://steamcommunity.com/profiles/76561198107350675/?fbclid=IwAR1ReHVoYztP9b9vYOgd-bAcGGFaOe15i9lC0NAg1e84irJyyGVkQrkSvsE" target="_blank"><i class="fab fa-steam fa-3x mx-4" data-toggle="tooltip" data-placement="bottom" title="Mi perfil de Steam"></i></a>
+                <div class="col-md-6 text-center">
+                    <a href="https://www.facebook.com/profile.php?id=100000159492383" target="_blank"><i class="fab fa-facebook fa-3x" data-toggle="tooltip" data-placement="bottom" title="Mi perfil de Facebook"></i></a>
+                    <a href="https://www.instagram.com/tigerdriver2666/" target="_blank"><i class="fab fa-instagram fa-3x " data-toggle="tooltip" data-placement="bottom" title="Mi cuenta de Instagram"></i></a>
+                    <a href="https://github.com/joscor90" target="_blank"><i class="fab fa-github fa-3x " data-toggle="tooltip" data-placement="bottom" title="Mi cuenta en Github"></i></a>
+                    <a href="https://steamcommunity.com/profiles/76561198107350675/?fbclid=IwAR1ReHVoYztP9b9vYOgd-bAcGGFaOe15i9lC0NAg1e84irJyyGVkQrkSvsE" target="_blank"><i class="fab fa-steam fa-3x" data-toggle="tooltip" data-placement="bottom" title="Mi perfil de Steam"></i></a>
                 </div>
             </div>
         </div>
     </footer>
-
-    
-
-
-
-
-
-
 
     <!--JQuery 3.5.1-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
