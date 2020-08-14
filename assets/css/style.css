@@ -120,9 +120,11 @@ footer a, footer a:hover {
         top: 45px;
     }
 
+    
     .card button {
         margin: 5px auto;
     }
+    
 
     .modal-btn {
         visibility: visible;
