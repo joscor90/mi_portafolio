@@ -18,6 +18,10 @@ header {
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav a, p {
     font-family: "Open Sans", sans-serif;
 }
